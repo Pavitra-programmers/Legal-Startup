@@ -1,3 +1,6 @@
+import { useEffect, useRef, useState } from "react";
+import typewriterImage from "@/assets/le-typewriter.png";
+
 const steps = [
   {
     num: "1",
@@ -27,8 +30,37 @@ const steps = [
 ];
 
 const SolutionSection = () => {
+  const [isVisible, setIsVisible] = useState(false);
+  const sectionRef = useRef<HTMLElement>(null);
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          setIsVisible(true);
+        }
+      },
+      { threshold: 0.3 }
+    );
+
+    if (sectionRef.current) {
+      observer.observe(sectionRef.current);
+    }
+
+    return () => observer.disconnect();
+  }, []);
+
   return (
-    <section id="solution" className="section-padding bg-secondary text-secondary-foreground relative overflow-hidden">
+    <section ref={sectionRef} id="solution" className="section-padding bg-secondary text-secondary-foreground relative overflow-hidden">
+      {/* Typewriter image - slide from right to left, half visible */}
+      <div className={`absolute right-0 top-0 bottom-0 w-1/2 transition-all duration-1000 ${isVisible ? 'translate-x-1/3 opacity-50' : 'translate-x-full opacity-0'}`}>
+        <img
+          src={typewriterImage}
+          alt="Typewriter"
+          className="w-full h-full object-cover object-left"
+        />
+      </div>
+
       {/* Decorative diagonal */}
       <div className="absolute top-0 left-1/4 w-px h-[120%] bg-primary/15 rotate-[-20deg] origin-top hidden lg:block" />
 

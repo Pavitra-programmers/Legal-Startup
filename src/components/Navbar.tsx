@@ -7,11 +7,19 @@ const navLinks = [
   { label: "Products", href: "#products" },
   { label: "Market", href: "#market" },
   { label: "Impact", href: "#impact" },
-  { label: "Vision", href: "#vision" },
 ];
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
+
+  const handleSmoothScroll = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {
+    e.preventDefault();
+    const element = document.querySelector(href);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+    setOpen(false);
+  };
 
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-background/90 backdrop-blur-md border-b border-border">
@@ -26,6 +34,7 @@ const Navbar = () => {
             <a
               key={link.href}
               href={link.href}
+              onClick={(e) => handleSmoothScroll(e, link.href)}
               className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors tracking-wide uppercase"
             >
               {link.label}
@@ -46,7 +55,7 @@ const Navbar = () => {
             <a
               key={link.href}
               href={link.href}
-              onClick={() => setOpen(false)}
+              onClick={(e) => handleSmoothScroll(e, link.href)}
               className="block text-sm font-medium text-muted-foreground hover:text-foreground uppercase tracking-wide"
             >
               {link.label}

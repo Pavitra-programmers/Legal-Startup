@@ -1,18 +1,36 @@
-import heroImage from "@/assets/hero-justice.jpg";
+import heroBg from "@/assets/hero-bg.png";
+import buildingImage from "@/assets/building-removebg-preview.png";
+import statueImage from "@/assets/statue-removebg-preview.png";
 
 const HeroSection = () => {
   return (
     <section className="relative min-h-screen flex items-end overflow-hidden">
-      {/* Background image */}
+      {/* Background image - fixed */}
       <div className="absolute inset-0">
         <img
-          src={heroImage}
-          alt="Lady Justice with Indian Supreme Court"
-          width={1920}
-          height={1080}
+          src={heroBg}
+          alt="Hero background"
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-secondary/70" />
+      </div>
+
+      {/* Building image - rise animation */}
+      <div className="absolute inset-0 animate-rise-building">
+        <img
+          src={buildingImage}
+          alt="Building"
+          className="w-full h-full object-cover"
+        />
+      </div>
+
+      {/* Statue image - rise animation with delay */}
+      <div className="absolute inset-0 animate-rise-statue">
+        <img
+          src={statueImage}
+          alt="Statue of Justice"
+          className="w-full h-full object-cover"
+        />
       </div>
 
       {/* Diagonal decorative line */}
@@ -38,20 +56,11 @@ const HeroSection = () => {
 
           <p className="text-lg md:text-xl text-secondary-foreground/80 max-w-2xl leading-relaxed font-light mb-6">
             India's first real-time legal protection platform — connecting citizens with lawyers
-            the moment they need them most: during a police encounter.
-          </p>
-
-          <p className="text-sm text-secondary-foreground/50 uppercase tracking-widest font-medium">
-            Startup Pitch — 2025
+            the moment they need them most.
           </p>
         </div>
       </div>
 
-      {/* Scroll indicator */}
-      <div className="absolute bottom-8 left-1/2 -translate-x-1/2 z-10 flex flex-col items-center gap-2">
-        <span className="text-xs text-secondary-foreground/40 uppercase tracking-widest">Scroll</span>
-        <div className="w-px h-8 bg-primary/50 animate-pulse" />
-      </div>
     </section>
   );
 };

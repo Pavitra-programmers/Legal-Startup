@@ -109,3 +109,37 @@
     text-wrap: balance;
   }
 }
+
+@keyframes rise-building {
+  0% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes rise-statue {
+  0% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.animate-rise-building {
+  animation: rise-building 1s ease-out forwards;
+  animation-delay: 0.5s;
+  opacity: 0;
+}
+
+.animate-rise-statue {
+  animation: rise-statue 1s ease-out forwards;
+  animation-delay: 1s;
+  opacity: 0;
+}
