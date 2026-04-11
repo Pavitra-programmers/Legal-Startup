@@ -70,7 +70,7 @@ const SolutionSection = () => {
           A lawyer in your pocket. A witness in every encounter.
         </h2>
         <p className="text-secondary-foreground/70 max-w-2xl mb-16 leading-relaxed">
-          Nyaya360 is a three-sided platform: citizens, advocates, and the Indian justice system.
+          NyayaJustis is a three-sided platform: citizens, advocates, and the Indian justice system.
           Think of it as Rapido meets JustDial — but for your legal rights.
         </p>
 

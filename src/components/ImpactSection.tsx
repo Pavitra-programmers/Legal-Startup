@@ -21,7 +21,7 @@ const ImpactSection = () => {
               evidence chain is clean from day one.
             </p>
             <p className="text-secondary-foreground/70 leading-relaxed">
-              Nyaya360 doesn't just help individuals — it fixes the plumbing of the Indian justice system.
+              NyayaJustis doesn't just help individuals — it fixes the plumbing of the Indian justice system.
               The public dashboard — Nyaya Mirror — creates a living map of where rights are being violated
               across India, empowering journalists, Human Rights Commissions, and state governments to act on evidence.
             </p>
@@ -35,7 +35,7 @@ const ImpactSection = () => {
               <cite className="text-sm text-secondary-foreground/50 not-italic">
                 — Article 22, Constitution of India.
                 <span className="block mt-1 text-primary/80">
-                  Nyaya360 makes this a practical reality for every citizen.
+                  NyayaJustis makes this a practical reality for every citizen.
                 </span>
               </cite>
             </blockquote>

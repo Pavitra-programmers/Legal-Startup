@@ -51,7 +51,7 @@ const HeroSection = () => {
           </div>
 
           <h1 className="text-5xl md:text-7xl lg:text-8xl font-heading font-bold leading-[0.9] text-secondary-foreground mb-8">
-            Nyaya<span className="text-primary italic">360</span>
+            Nyaya<span className="text-primary italic">Justis</span>
           </h1>
 
           <p className="text-lg md:text-xl text-secondary-foreground/80 max-w-2xl leading-relaxed font-light mb-6">

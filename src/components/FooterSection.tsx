@@ -8,11 +8,11 @@ const FooterSection = () => {
           Justice should not be a luxury.
         </h2>
         <p className="text-secondary-foreground/60 max-w-2xl mx-auto leading-relaxed mb-12">
-          Nyaya360 is building the infrastructure that turns India's constitutional promise into a daily lived reality — one tap at a time.
+          NyayaJustis is an early-stage startup building the infrastructure that turns India's constitutional promise into a daily lived reality — one tap at a time.
         </p>
         <div className="flex justify-center">
           <a
-            href="#"
+            href="mailto:stringcostdevs@gmail.com"
             className="inline-block bg-primary text-primary-foreground px-8 py-4 text-sm font-semibold uppercase tracking-widest hover:bg-primary/90 transition-colors"
           >
             Get in Touch
@@ -21,10 +21,10 @@ const FooterSection = () => {
 
         <div className="mt-20 pt-8 border-t border-secondary-foreground/10 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="font-heading text-lg font-bold">
-            Nyaya<span className="text-primary">360</span>
+            Nyaya<span className="text-primary">Justis</span>
           </p>
           <p className="text-xs text-secondary-foreground/40">
-            © 2025 Nyaya360. All rights reserved.
+            © 2026 NyayaJustis. Early-stage startup. All rights reserved.
           </p>
         </div>
       </div>

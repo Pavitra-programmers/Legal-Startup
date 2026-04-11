@@ -10,7 +10,7 @@ const competitive = [
   { name: "LawRato", sos: false, recording: false, billing: false, llm: false },
   { name: "Lawyered", sos: false, recording: false, billing: false, llm: false },
   { name: "TurnSignl (US)", sos: true, recording: true, billing: false, llm: false },
-  { name: "Nyaya360", sos: true, recording: true, billing: true, llm: true, highlight: true },
+  { name: "NyayaJustis", sos: true, recording: true, billing: true, llm: true, highlight: true },
 ];
 
 const MarketSection = () => {
