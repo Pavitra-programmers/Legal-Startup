@@ -113,33 +113,29 @@
 @keyframes rise-building {
   0% {
     transform: translateY(100%);
-    opacity: 0;
   }
   100% {
     transform: translateY(0);
-    opacity: 1;
   }
 }
 
 @keyframes rise-statue {
   0% {
     transform: translateY(100%);
-    opacity: 0;
   }
   100% {
     transform: translateY(0);
-    opacity: 1;
   }
 }
 
 .animate-rise-building {
-  animation: rise-building 1s ease-out forwards;
-  animation-delay: 0.5s;
-  opacity: 0;
+  animation: rise-building 1.2s ease-out forwards;
+  animation-delay: 0.3s;
+  transform: translateY(100%);
 }
 
 .animate-rise-statue {
-  animation: rise-statue 1s ease-out forwards;
-  animation-delay: 1s;
-  opacity: 0;
+  animation: rise-statue 1.2s ease-out forwards;
+  animation-delay: 0.8s;
+  transform: translateY(100%);
 }
