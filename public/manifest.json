@@ -1,0 +1,16 @@
+{
+  "name": "NyayaJustis - Real-Time Legal Protection",
+  "short_name": "NyayaJustis",
+  "description": "India's first real-time legal protection platform connecting citizens with lawyers during police encounters",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#1a1a1a",
+  "icons": [
+    {
+      "src": "/src/assets/favicon-removebg-preview.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
+}
