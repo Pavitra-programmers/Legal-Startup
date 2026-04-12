@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import typewriterImage from "@/assets/le-typewriter.png";
+import typewriterImage from "@/assets/le-typewriter-CTFT7tL9.png";
 
 const steps = [
   {

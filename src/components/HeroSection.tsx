@@ -1,6 +1,6 @@
-import heroBg from "@/assets/hero-bg.png";
-import heroBuilding from "@/assets/hero-building2.png";
-import heroStatue from "@/assets/hero-statue.png";
+import heroBg from "@/assets/hero-bg-Gb2bSDSq.png";
+import heroBuilding from "@/assets/hero-building2--Tb4LEuO.png";
+import heroStatue from "@/assets/hero-statue-BmeRh5SI.png";
 
 const HeroSection = () => {
   return (
@@ -11,26 +11,32 @@ const HeroSection = () => {
           src={heroBg}
           alt="Hero background"
           className="w-full h-full object-cover"
+          loading="eager"
+          fetchPriority="high"
         />
         <div className="absolute inset-0 bg-secondary/30" />
       </div>
 
       {/* Hero Building image - rise animation */}
-      <div className="absolute inset-0 animate-rise-building">
+      <div className="absolute inset-0 animate-rise-building-fast">
         <img
           src={heroBuilding}
           alt="Building"
           className="w-full h-full object-cover object-bottom pt-4"
+          loading="eager"
+          fetchPriority="high"
         />
         
       </div>
 
       {/* Hero Statue image - rise animation with delay */}
-      <div className="absolute top-80 bottom-0 left-80 right-0 h-[85%] animate-rise-statue">
+      <div className="absolute top-80 bottom-0 left-80 right-0 h-[85%] animate-rise-statue-fast">
         <img
           src={heroStatue}
           alt="Statue of Justice"
           className="w-full h-full object-contain object-bottom"
+          loading="eager"
+          fetchPriority="high"
         />
       </div>
 
