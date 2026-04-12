@@ -1,25 +1,25 @@
-import { Network, Database, BookOpen, Star } from "lucide-react";
+import { ShieldCheck, Lock, Scale, BadgeCheck } from "lucide-react";
 
-const moats = [
+const commitments = [
   {
-    icon: Network,
-    title: "Network effects",
-    description: "More advocates → faster response times → more citizen trust → more advocates join. The marketplace compounds.",
+    icon: ShieldCheck,
+    title: "Built for BCI compliance",
+    description: "Every feature has been designed against the Advocates Act 1961 and Bar Council of India rules. You never advertise. You never share fees. Your professional independence is protected by architecture, not just policy.",
   },
   {
-    icon: Database,
-    title: "Proprietary data",
-    description: "Every recorded encounter, every case note, every LLM query trains India's most specialised legal AI.",
+    icon: Lock,
+    title: "Privilege-protected from day one",
+    description: "Attorney-client privilege attaches the moment you accept a session. Session recordings are encrypted and inaccessible to anyone at NyayaJustis without a court order. Your conversations with clients are yours.",
   },
   {
-    icon: BookOpen,
-    title: "Constitutional anchoring",
-    description: "The product enforces Article 22 of the Constitution. It is legally impossible to ban. It's not a convenience — it's a right.",
+    icon: Scale,
+    title: "Grounded in constitutional law",
+    description: "NyayaJustis operationalises Article 22 of the Constitution. Every session is a citizen exercising a fundamental right. The platform's existence is backed by constitutional mandate — it cannot be legislated away.",
   },
   {
-    icon: Star,
-    title: "Trust flywheel",
-    description: "Mutual ratings create verified reputations. Trust is the hardest thing to build — and the hardest thing to copy.",
+    icon: BadgeCheck,
+    title: "Verified, rated, and trusted",
+    description: "Every advocate on the platform is verified against Bar enrollment records. Mutual ratings after each session build a documented track record. Your reputation compounds with every session you take.",
   },
 ];
 
@@ -27,17 +27,21 @@ const MoatSection = () => {
   return (
     <section className="section-padding bg-card">
       <div className="max-w-7xl mx-auto">
-        <p className="text-sm uppercase tracking-widest text-primary font-medium mb-4">Moat & Defensibility</p>
-        <h2 className="text-3xl md:text-5xl font-heading font-bold text-foreground max-w-2xl leading-tight mb-16">
-          Why this is hard to copy.
+        <p className="text-xs sm:text-sm uppercase tracking-widest text-primary font-medium mb-3 sm:mb-4">Why Advocates Trust Us</p>
+        <h2 className="text-2xl sm:text-3xl md:text-5xl font-heading font-bold text-foreground max-w-2xl leading-tight mb-4 sm:mb-6">
+          A platform that protects you as much as your clients.
         </h2>
+        <p className="text-sm sm:text-base text-muted-foreground max-w-2xl mb-12 sm:mb-16 leading-relaxed">
+          NyayaJustis was built with a lawyer's concerns in mind from the very first design decision.
+          Here is what that means in practice.
+        </p>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-          {moats.map((moat, i) => (
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8">
+          {commitments.map((item, i) => (
             <div key={i} className="group">
-              <moat.icon className="w-10 h-10 text-primary mb-5 group-hover:scale-110 transition-transform" strokeWidth={1.2} />
-              <h3 className="font-heading text-lg font-semibold text-foreground mb-3">{moat.title}</h3>
-              <p className="text-muted-foreground text-sm leading-relaxed">{moat.description}</p>
+              <item.icon className="w-8 h-8 sm:w-10 sm:h-10 text-primary mb-4 sm:mb-5 group-hover:scale-110 transition-transform" strokeWidth={1.2} />
+              <h3 className="font-heading text-base sm:text-lg font-semibold text-foreground mb-2 sm:mb-3">{item.title}</h3>
+              <p className="text-muted-foreground text-sm leading-relaxed">{item.description}</p>
             </div>
           ))}
         </div>

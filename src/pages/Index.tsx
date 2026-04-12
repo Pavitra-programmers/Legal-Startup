@@ -7,6 +7,7 @@ import MarketSection from "@/components/MarketSection";
 import RevenueSection from "@/components/RevenueSection";
 import MoatSection from "@/components/MoatSection";
 import ImpactSection from "@/components/ImpactSection";
+import FAQSection from "@/components/FAQSection";
 import FooterSection from "@/components/FooterSection";
 
 const Index = () => {
@@ -21,6 +22,7 @@ const Index = () => {
       <RevenueSection />
       <MoatSection />
       <ImpactSection />
+      <FAQSection />
       <FooterSection />
     </div>
   );
