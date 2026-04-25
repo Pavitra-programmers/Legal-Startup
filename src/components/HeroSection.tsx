@@ -10,6 +10,7 @@ const HeroSection = () => {
         <img
           src={heroBg}
           alt="Hero background"
+          aria-hidden="true"
           className="w-full h-full object-cover"
           loading="eager"
           fetchPriority="high"
@@ -21,7 +22,8 @@ const HeroSection = () => {
       <div className="absolute inset-0 animate-rise-building-fast">
         <img
           src={heroBuilding}
-          alt="Building"
+          alt=""
+          aria-hidden="true"
           className="w-full h-full object-cover object-bottom pt-4"
           loading="eager"
           fetchPriority="high"
@@ -33,7 +35,8 @@ const HeroSection = () => {
       <div className="absolute top-80 bottom-0 left-80 right-0 h-[85%] animate-rise-statue-fast">
         <img
           src={heroStatue}
-          alt="Statue of Justice"
+          alt=""
+          aria-hidden="true"
           className="w-full h-full object-contain object-bottom"
           loading="eager"
           fetchPriority="high"

@@ -23,6 +23,13 @@ const Navbar = () => {
   };
 
   return (
+    <>
+    <a
+      href="#main-content"
+      className="sr-only focus:not-sr-only focus:fixed focus:top-4 focus:left-4 focus:z-[200] focus:bg-primary focus:text-primary-foreground focus:px-4 focus:py-2 focus:font-semibold focus:rounded"
+    >
+      Skip to main content
+    </a>
     <nav className="fixed top-0 left-0 right-0 z-50 bg-background/90 backdrop-blur-md border-b border-border">
       <div className="max-w-7xl mx-auto flex items-center justify-between px-6 md:px-12 py-4">
         <a href="#" className="font-heading text-2xl font-bold tracking-tight text-foreground">
@@ -44,14 +51,14 @@ const Navbar = () => {
         </div>
 
         {/* Mobile toggle */}
-        <button onClick={() => setOpen(!open)} className="md:hidden text-foreground">
+        <button onClick={() => setOpen(!open)} aria-label={open ? "Close navigation menu" : "Open navigation menu"} aria-expanded={open} aria-controls="mobile-nav-menu" className="md:hidden text-foreground">
           {open ? <X size={24} /> : <Menu size={24} />}
         </button>
       </div>
 
       {/* Mobile menu */}
       {open && (
-        <div className="md:hidden bg-background border-t border-border px-6 py-4 space-y-3">
+        <div id="mobile-nav-menu" className="md:hidden bg-background border-t border-border px-6 py-4 space-y-3">
           {navLinks.map((link) => (
             <a
               key={link.href}
@@ -65,6 +72,7 @@ const Navbar = () => {
         </div>
       )}
     </nav>
+    </>
   );
 };
 

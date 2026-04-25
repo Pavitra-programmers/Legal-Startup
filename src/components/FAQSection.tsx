@@ -76,11 +76,15 @@ interface AccordionItemProps {
   item: FAQItem;
   isOpen: boolean;
   onToggle: () => void;
+  id: string;
 }
 
-const FAQAccordionItem = ({ item, isOpen, onToggle }: AccordionItemProps) => (
+const FAQAccordionItem = ({ item, isOpen, onToggle, id }: AccordionItemProps) => (
   <div className="border-b border-border">
     <button
+      id={`${id}-btn`}
+      aria-expanded={isOpen}
+      aria-controls={`${id}-panel`}
       className="w-full text-left py-5 sm:py-6 flex items-start justify-between gap-4 group"
       onClick={onToggle}
     >
@@ -93,7 +97,7 @@ const FAQAccordionItem = ({ item, isOpen, onToggle }: AccordionItemProps) => (
       />
     </button>
     {isOpen && (
-      <div className="pb-5 sm:pb-6">
+      <div id={`${id}-panel`} role="region" aria-labelledby={`${id}-btn`} className="pb-5 sm:pb-6">
         <p className="text-sm sm:text-base text-muted-foreground leading-relaxed border-l-2 border-primary/30 pl-4 sm:pl-5">
           {item.a}
         </p>
@@ -143,6 +147,7 @@ const FAQSection = () => {
               {advocateFAQs.map((item, i) => (
                 <FAQAccordionItem
                   key={i}
+                  id={`advocate-${i}`}
                   item={item}
                   isOpen={openAdvocate === i}
                   onToggle={() => setOpenAdvocate(openAdvocate === i ? null : i)}
@@ -163,6 +168,7 @@ const FAQSection = () => {
               {citizenFAQs.map((item, i) => (
                 <FAQAccordionItem
                   key={i}
+                  id={`citizen-${i}`}
                   item={item}
                   isOpen={openCitizen === i}
                   onToggle={() => setOpenCitizen(openCitizen === i ? null : i)}

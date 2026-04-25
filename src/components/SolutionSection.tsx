@@ -56,7 +56,10 @@ const SolutionSection = () => {
       <div className={`hidden md:block absolute right-0 top-0 bottom-0 w-1/2 transition-all duration-1000 ${isVisible ? 'translate-x-1/3 opacity-50' : 'translate-x-full opacity-0'}`}>
         <img
           src={typewriterImage}
-          alt="Typewriter"
+          alt=""
+          aria-hidden="true"
+          loading="lazy"
+          decoding="async"
           className="w-full h-full object-cover object-left"
         />
       </div>
