@@ -12,7 +12,7 @@ const products = [
     icon: Users,
     label: "Marketplace",
     name: "Nyaya Connect",
-    description: "Tinder-style advocate discovery — filter by language, specialty, location, rating. Book by the minute or by the case.",
+    description: "Curated advocate discovery — filter by language, specialty, location, and rating. Book by the minute or by the case.",
     color: "border-accent",
   },
   {
@@ -41,7 +41,7 @@ const ProductsSection = () => {
       <div className="max-w-7xl mx-auto relative z-10">
         <p className="text-xs sm:text-sm uppercase tracking-widest text-primary font-medium mb-3 sm:mb-4">Product Suite</p>
         <h2 className="text-2xl sm:text-3xl md:text-5xl font-heading font-bold text-foreground max-w-2xl leading-tight mb-12 sm:mb-16">
-          Three products. One mission.
+          Four products. One mission. Every woman protected.
         </h2>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6">

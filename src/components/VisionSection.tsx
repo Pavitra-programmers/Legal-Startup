@@ -1,8 +1,8 @@
 const phases = [
   {
     tag: "P1",
-    title: "Launch: Nyaya Shield + Marketplace",
-    description: "5 metro cities. 2,000 verified advocates onboarded. Focus on police encounter SOS and per-minute consultations. Android-first with Hindi, Hindustani, and English support.",
+    title: "Launch: Nyaya Shield + NyayPoints Wallet",
+    description: "5 metro cities. 1,000 verified advocates onboarded. Women-first SOS with pre-loaded NyayPoints wallet — zero payment friction at the moment of need. Android-first. Hindi, Hindustani, Urdu, and English. Non-cognizable offences and MVA disputes only.",
   },
   {
     tag: "P2",

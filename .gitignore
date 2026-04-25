@@ -22,3 +22,7 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Pitch decks & private strategy docs
+nyayjustis_pitch_v2.html
+yc_application.txt

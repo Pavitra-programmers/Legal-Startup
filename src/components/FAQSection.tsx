@@ -42,8 +42,8 @@ const advocateFAQs: FAQItem[] = [
 const citizenFAQs: FAQItem[] = [
   {
     q: "Is it legal to record a police officer during a traffic stop in India?",
-    a: "Yes, within limits. India does not have a two-party consent recording law. As a party to the interaction, you have the right to record your own encounter — this flows from Article 19(1)(a) and Article 21 of the Constitution. Recording police officers performing a public duty in a public space has been upheld in principle by Indian courts. NyayaJustis recording activates at the SOS press and records only the encounter you are actively part of. The evidence package also includes a Section 65B certified certificate, making the recording court-admissible — not just a raw video file.",
-    cite: "Art. 19 & 21, Constitution of India | BSA 2023, Section 65B",
+    a: "Yes, within limits. India does not have a two-party consent recording law. As a party to the interaction, you have the right to record your own encounter — this flows from Article 19(1)(a) and Article 21 of the Constitution. Recording police officers performing a public duty in a public space has been upheld in principle by Indian courts. NyayaJustis recording activates at the SOS press and records only the encounter you are actively part of. The evidence package also includes a Section 65B of the Bharatiya Sakshya Adhiniyam 2023 certified certificate, making the recording court-admissible — not just a raw video file.",
+    cite: "Art. 19 & 21, Constitution of India | Section 65B, Bharatiya Sakshya Adhiniyam 2023 (BSA 2023)",
   },
   {
     q: "Can the lawyer on the call actually do anything — can they order the police to leave me alone?",
@@ -58,7 +58,7 @@ const citizenFAQs: FAQItem[] = [
   {
     q: "Can the recording actually be used as evidence in court?",
     a: "Yes, if properly generated. Under Section 65B of the Bharatiya Sakshya Adhiniyam 2023, electronic records are admissible as evidence when accompanied by a certificate from a responsible official attesting to the recording conditions. NyayaJustis builds this certification chain into every evidence package. This transforms your phone video into legally admissible evidence — usable in court, before a Human Rights Commission, or in a formal police complaint proceeding.",
-    cite: "BSA 2023, Section 65B | Anvar P.V. v. P.K. Basheer (2014) SC",
+    cite: "Section 65B, Bharatiya Sakshya Adhiniyam 2023 (BSA 2023) | Anvar P.V. v. P.K. Basheer (2014) SC",
   },
   {
     q: "Does this work for serious criminal cases or FIRs?",

@@ -1,13 +1,13 @@
 const forCitizens = [
   {
-    title: "Pay only for what you use",
+    title: "NyayPoints — pre-loaded, zero friction at the moment of stress",
     tag: "For Citizens",
-    description: "No retainers, no advance payments, no surprises. You set what you can pay for a session. Nothing is charged until a lawyer accepts and you confirm.",
+    description: "Buy NyayPoints before any emergency (1 pt = ₹1). When you press SOS, your points offer is broadcast instantly — no bank transaction, no OTP during the stop. Payment happens before the emergency, not during it.",
   },
   {
     title: "Nyaya Premium — always ready",
     tag: "For Citizens",
-    description: "Upgrade for priority matching, longer evidence storage, and downloadable certified evidence certificates included — so the documents you need are always at hand.",
+    description: "Upgrade for priority matching, longer evidence storage, and downloadable Section 65B of the Bharatiya Sakshya Adhiniyam 2023 certified evidence certificates included — so the documents you need are always at hand.",
   },
 ];
 
@@ -30,11 +30,12 @@ const RevenueSection = () => {
       <div className="max-w-7xl mx-auto">
         <p className="text-xs sm:text-sm uppercase tracking-widest text-primary font-medium mb-3 sm:mb-4">How It Works for You</p>
         <h2 className="text-2xl sm:text-3xl md:text-5xl font-heading font-bold text-foreground max-w-2xl leading-tight mb-4 sm:mb-6">
-          Designed to be fair for everyone on the platform.
+          Designed to be fair for every woman and every advocate on the platform.
         </h2>
         <p className="text-sm sm:text-base text-muted-foreground max-w-2xl mb-12 sm:mb-16 leading-relaxed">
-          Citizens get transparent, affordable legal access. Advocates get a new income stream
-          with full professional independence. The incentives are aligned — not extracted.
+          Women get transparent, affordable legal access with zero payment friction during a stop.
+          Advocates get a new income stream with full professional independence. The incentives
+          are aligned — not extracted.
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 sm:gap-10">

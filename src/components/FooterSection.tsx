@@ -5,10 +5,10 @@ const FooterSection = () => {
 
       <div className="max-w-7xl mx-auto relative z-10 text-center">
         <h2 className="text-2xl sm:text-3xl md:text-5xl lg:text-6xl font-heading font-bold leading-tight mb-6 sm:mb-8 max-w-3xl mx-auto">
-          Justice should not be a luxury.
+          No woman should face the law alone.
         </h2>
         <p className="text-sm sm:text-base text-secondary-foreground/60 max-w-2xl mx-auto leading-relaxed mb-10 sm:mb-12 px-4">
-          NyayaJustis is an early-stage startup building the infrastructure that turns India's constitutional promise into a daily lived reality — one tap at a time.
+          NyayaJustis is building the infrastructure that turns India's constitutional promise into a daily lived reality — for every woman on every road, one tap at a time.
         </p>
         <div className="flex justify-center">
           <a

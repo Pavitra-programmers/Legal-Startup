@@ -8,22 +8,22 @@ const ImpactSection = () => {
       <div className="max-w-7xl mx-auto relative z-10">
         <p className="text-xs sm:text-sm uppercase tracking-widest text-primary font-medium mb-3 sm:mb-4">Social Impact</p>
         <h2 className="text-2xl sm:text-3xl md:text-5xl font-heading font-bold max-w-3xl leading-tight mb-10 sm:mb-12">
-          Not just a business — a reform movement.
+          Not just a business — a women's rights movement.
         </h2>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 sm:gap-12 lg:gap-20">
           <div>
-            <h3 className="font-heading text-xl sm:text-2xl font-semibold mb-4 sm:mb-6">Solving India's pending case crisis</h3>
+            <h3 className="font-heading text-xl sm:text-2xl font-semibold mb-4 sm:mb-6">Fixing the first ten minutes for every woman</h3>
             <p className="text-sm sm:text-base text-secondary-foreground/70 leading-relaxed mb-4 sm:mb-6">
-              Most of India's 4.5 crore pending cases begin with undocumented, rights-violating interactions.
-              When every encounter is recorded and every citizen has immediate legal guidance, coerced confessions
-              disappear, illegal detentions become impossible to sustain, and cases are resolved faster because the
-              evidence chain is clean from day one.
+              India's rights violations happen before any FIR is filed — in the first ten minutes of a police
+              interaction. For women driving alone, this window is where coerced settlements happen, where
+              harassment goes undocumented, where the system fails most completely. When every encounter is
+              recorded and every woman has an advocate on call, that window changes permanently.
             </p>
             <p className="text-sm sm:text-base text-secondary-foreground/70 leading-relaxed">
-              NyayaJustis doesn't just help individuals — it fixes the plumbing of the Indian justice system.
-              The public dashboard — Nyaya Mirror — creates a living map of where rights are being violated
-              across India, empowering journalists, Human Rights Commissions, and state governments to act on evidence.
+              NyayaJustis doesn't just help individuals — it creates accountability. The public dashboard —
+              Nyaya Mirror — maps encounter patterns across India, showing journalists, Human Rights
+              Commissions, and state governments exactly where women's rights are being violated and by whom.
             </p>
           </div>
 
@@ -35,7 +35,7 @@ const ImpactSection = () => {
               <cite className="text-xs sm:text-sm text-secondary-foreground/50 not-italic">
                 — Article 22, Constitution of India.
                 <span className="block mt-1 text-primary/80">
-                  NyayaJustis makes this a practical reality for every citizen.
+                  NyayaJustis makes this a practical reality for every woman in India — not theoretical, not aspirational, but immediate.
                 </span>
               </cite>
             </blockquote>

@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <!-- Dark background -->
+  <rect width="32" height="32" rx="5" fill="#07090f"/>
+
+  <!-- Top pivot -->
+  <circle cx="16" cy="5" r="1.6" fill="#c49a3c"/>
+
+  <!-- Central pole -->
+  <line x1="16" y1="5" x2="16" y2="28" stroke="#c49a3c" stroke-width="1.2" stroke-linecap="round"/>
+
+  <!-- Horizontal crossbar -->
+  <line x1="7" y1="9" x2="25" y2="9" stroke="#c49a3c" stroke-width="1.2" stroke-linecap="round"/>
+
+  <!-- Left pan strings -->
+  <line x1="8"  y1="9"  x2="6"  y2="16" stroke="#c49a3c" stroke-width="0.85" stroke-linecap="round"/>
+  <line x1="8"  y1="9"  x2="11" y2="16" stroke="#c49a3c" stroke-width="0.85" stroke-linecap="round"/>
+
+  <!-- Right pan strings -->
+  <line x1="24" y1="9"  x2="21" y2="16" stroke="#c49a3c" stroke-width="0.85" stroke-linecap="round"/>
+  <line x1="24" y1="9"  x2="26" y2="16" stroke="#c49a3c" stroke-width="0.85" stroke-linecap="round"/>
+
+  <!-- Left pan bowl -->
+  <path d="M4.5 16 Q4.5 20.5 8.5 20.5 Q12.5 20.5 12.5 16 Z"
+        fill="rgba(196,154,60,0.18)" stroke="#c49a3c" stroke-width="1"/>
+
+  <!-- Right pan bowl (slightly lower = unequal = justice in motion) -->
+  <path d="M19.5 17 Q19.5 21.5 23.5 21.5 Q27.5 21.5 27.5 17 Z"
+        fill="rgba(196,154,60,0.18)" stroke="#c49a3c" stroke-width="1"/>
+
+  <!-- Base platform -->
+  <rect x="13" y="27" width="6" height="1.5" rx="0.75" fill="#c49a3c"/>
+</svg>

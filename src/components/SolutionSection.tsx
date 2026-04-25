@@ -9,8 +9,8 @@ const steps = [
   },
   {
     num: "2",
-    title: "Name what you can pay — a lawyer accepts",
-    description: "You choose a session budget. The platform broadcasts your request to verified advocates available right now. The lawyer you are matched with is not advertising — they are choosing to help you at your terms. No retainers, no surprise fees.",
+    title: "Offer NyayPoints — no payment stress during the stop",
+    description: "You select how many NyayPoints to offer from your pre-loaded wallet (bought before any emergency — 1 pt = ₹1). The platform broadcasts your request to available advocates. No bank transaction, no OTP — your pre-loaded points handle it instantly. No retainers, no surprise fees.",
   },
   {
     num: "3",
@@ -25,7 +25,7 @@ const steps = [
   {
     num: "5",
     title: "A certified evidence package — yours to keep",
-    description: "After the session, you receive a timestamped recording, session transcript, and a Section 65B certified certificate making the evidence admissible in court, before Human Rights Commissions, or in a formal police complaint.",
+    description: "After the session, you receive a timestamped recording, session transcript, and a Section 65B of the Bharatiya Sakshya Adhiniyam 2023 certified certificate making the evidence admissible in court, before Human Rights Commissions, or in a formal police complaint.",
   },
 ];
 
@@ -67,12 +67,13 @@ const SolutionSection = () => {
       <div className="max-w-7xl mx-auto relative z-10">
         <p className="text-xs sm:text-sm uppercase tracking-widest text-primary font-medium mb-3 sm:mb-4">The Solution</p>
         <h2 className="text-2xl sm:text-3xl md:text-5xl font-heading font-bold max-w-3xl leading-tight mb-4 sm:mb-6">
-          A lawyer in your pocket. A witness in every encounter.
+          A verified advocate in her pocket. A witness in every encounter.
         </h2>
         <p className="text-sm sm:text-base text-secondary-foreground/70 max-w-2xl mb-12 sm:mb-16 leading-relaxed">
-          NyayaJustis connects citizens facing roadside encounters with verified advocates via live
-          video — instantly, transparently, and at a price both parties agree to before the session begins.
-          Every interaction is recorded. Every session is witnessed. Every piece of evidence is yours.
+          NyayaJustis connects women facing roadside encounters with verified advocates via live
+          video — instantly, using pre-loaded NyayPoints so there is zero payment friction at the
+          moment of need. Every interaction is recorded. Every session is witnessed. Every piece
+          of evidence is hers.
         </p>
 
         <div className="space-y-0">
