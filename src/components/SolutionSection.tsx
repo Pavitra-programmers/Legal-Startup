@@ -70,13 +70,13 @@ const SolutionSection = () => {
       <div className="max-w-7xl mx-auto relative z-10">
         <p className="text-xs sm:text-sm uppercase tracking-widest text-primary font-medium mb-3 sm:mb-4">The Solution</p>
         <h2 className="text-2xl sm:text-3xl md:text-5xl font-heading font-bold max-w-3xl leading-tight mb-4 sm:mb-6">
-          A verified advocate in her pocket. A witness in every encounter.
+          A verified advocate in your pocket. A timestamped witness in every encounter.
         </h2>
         <p className="text-sm sm:text-base text-secondary-foreground/70 max-w-2xl mb-12 sm:mb-16 leading-relaxed">
-          NyayaJustis connects women facing roadside encounters with verified advocates via live
+          NyayaJustis connects citizens facing roadside encounters with verified advocates via live
           video — instantly, using pre-loaded NyayPoints so there is zero payment friction at the
           moment of need. Every interaction is recorded. Every session is witnessed. Every piece
-          of evidence is hers.
+          of evidence is yours.
         </p>
 
         <div className="space-y-0">

@@ -4,12 +4,12 @@ const problems = [
   {
     icon: AlertTriangle,
     title: "Traffic stops without recourse",
-    description: "Millions of roadside encounters happen every day in India. Women driving alone have no live legal guidance on what challans are valid, what they must sign, or when they can lawfully object.",
+    description: "Millions of roadside encounters happen every day in India. Citizens have no live legal guidance on what challans are valid, what they must sign, or when they can lawfully object.",
   },
   {
     icon: Scale,
     title: "Roadside extortion",
-    description: "Without a witness or a legal voice, women routinely pay unofficial 'settlements' for violations that are either invalid or a fraction of the official fine — because they don't know they can refuse.",
+    description: "Without a witness or a legal voice, citizens routinely pay unofficial 'settlements' for violations that are either invalid or a fraction of the official fine — because they don't know they can refuse.",
   },
   {
     icon: PhoneOff,
@@ -19,7 +19,7 @@ const problems = [
   {
     icon: Lock,
     title: "Women are disproportionately targeted",
-    description: "Solo women drivers face a documented pattern of illegal demands and coercive settlements during traffic stops — with no legal voice, no witness, and no recourse. They are least likely to know they can refuse.",
+    description: "Solo women drivers face a documented pattern of illegal demands, harassment, and coercive settlements during traffic stops — with no legal voice, no witness, and no recourse. They are least likely to know they can refuse.",
   },
 ];
 
@@ -34,13 +34,15 @@ const ProblemSection = () => {
       <div className="max-w-7xl mx-auto relative z-10">
         <p className="text-xs sm:text-sm uppercase tracking-widest text-primary font-medium mb-3 sm:mb-4">The Problem</p>
         <h2 className="text-2xl sm:text-3xl md:text-5xl font-heading font-bold text-foreground max-w-2xl leading-tight mb-4 sm:mb-6">
-          The most dangerous moment for a woman's rights is when she's alone on the roadside.
+          Rights violations happen in the first ten minutes — before any FIR, before any court.
         </h2>
         <p className="text-sm sm:text-base text-muted-foreground max-w-2xl mb-12 sm:mb-16 leading-relaxed">
           In India, rights violations happen before any FIR is filed — on the roadside, at a traffic checkpoint,
-          in the first ten minutes of a police interaction. For women, this risk is compounded: a solo driver
-          stopped at night, a professional questioned without a witness, a commuter who doesn't know she can
-          refuse an unlawful demand. By the time a lawyer is involved, the damage is already done.
+          in the first ten minutes of a police interaction. A solo driver stopped at night, a professional questioned
+          without a witness, a commuter who doesn't know they can refuse an unlawful demand. By the time a lawyer
+          is involved, the damage — coerced statements, unofficial payments, undocumented harassment — is already done.
+          Women face this risk in compounded measure: they are least likely to know they can refuse, and most likely
+          to be targeted.
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8 mb-12 sm:mb-16">
@@ -65,7 +67,7 @@ const ProblemSection = () => {
           </p>
           <cite className="text-xs text-muted-foreground not-italic tracking-wide">
             — Article 22(1), Constitution of India.{" "}
-            <span className="text-primary">NyayaJustis builds the infrastructure that makes this a lived reality for every woman in India — not theoretical, not aspirational, but immediate.</span>
+            <span className="text-primary">NyayaJustis builds the infrastructure that makes this a lived reality for every citizen in India — not theoretical, not aspirational, but immediate.</span>
           </cite>
         </blockquote>
       </div>

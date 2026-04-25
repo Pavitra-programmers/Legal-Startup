@@ -50,7 +50,7 @@ const HeroSection = () => {
       <div className="relative z-10 w-full px-4 sm:px-6 md:px-12 lg:px-24 py-24 sm:py-32">
         <div className="max-w-3xl bg-secondary/80 backdrop-blur-sm p-6 sm:p-8 md:p-10 rounded-lg">
           <div className="flex gap-2 sm:gap-3 mb-6 sm:mb-8 flex-wrap">
-            {["LegalTech", "Women's Safety", "AI-Powered"].map((tag) => (
+            {["LegalTech", "Civic Rights", "AI-Powered"].map((tag) => (
               <span
                 key={tag}
                 className="text-[10px] sm:text-xs font-medium uppercase tracking-widest text-primary border border-primary/40 px-2 sm:px-3 py-1 bg-secondary/50"
@@ -65,17 +65,17 @@ const HeroSection = () => {
           </h1>
 
           <p className="text-base sm:text-lg md:text-xl text-secondary-foreground/90 max-w-2xl leading-relaxed font-light mb-8">
-            India's first real-time legal protection platform built for women — connecting them
+            India's first real-time legal protection platform for every citizen — connecting you
             with verified advocates during traffic stops and roadside encounters, in under 90 seconds.
-            Because every woman deserves a witness.
+            Because no one should face the law alone.
           </p>
 
           {/* Motto block */}
           <div className="border-l-4 border-primary pl-5 sm:pl-6 bg-secondary/60 py-4 sm:py-5 pr-4 sm:pr-6 max-w-2xl">
             <p className="text-sm sm:text-base font-heading italic text-secondary-foreground leading-relaxed mb-2">
-              "The moment NyayaJustis connects her to an advocate, she is no longer alone, unnamed,
+              "The moment NyayaJustis connects you to an advocate, you are no longer alone, unnamed,
               or unwitnessed. Every word is recorded. Every second is timestamped. And a legal
-              professional is guiding every word she says."
+              professional is guiding every word you say."
             </p>
             <cite className="text-[11px] sm:text-xs text-secondary-foreground/70 not-italic tracking-wider uppercase font-medium">
               — Core operating principle
